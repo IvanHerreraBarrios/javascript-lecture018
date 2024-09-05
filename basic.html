@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript basics</title>
+</head>
+
+<body>
+    <h1>Javascript basics</h1>
+    <ul>
+        <li>Spring</li>
+        <li>Summer</li>
+        <li>Fall</li>
+        <li>Winter</li>
+    </ul>
+    <script>
+      let name = "Kenai";
+      age = 7;
+
+      const dog = {
+        name: name,
+        age: age,
+        barking:function(){
+          console.log("guauu guauu!!!")
+        }
+      }
+
+      console.log(dog);
+      dog.barking();
+
+      const doggie = {
+        name,
+        age,
+        race:"Yul",
+        barking(){
+          console.log("guauu guauu  :D!!!")
+        }
+      }
+
+      console.log(doggie);
+      doggie.barking();
+    </script>
+</body>
+
+</html>
